@@ -23,6 +23,7 @@ The application also includes a **Streamlit chat interface** with a dark mode UI
 
 # Architecture
 
+```bash
 User Question
 ↓
 LangGraph Agent
@@ -34,7 +35,7 @@ Chroma Vector Database
 Relevant Document Chunks Retrieved
 ↓
 LLM Generates Final Answer
-
+```
 ---
 
 # Technologies Used
@@ -50,6 +51,7 @@ LLM Generates Final Answer
 
 # Project Structure
 
+```bash
 Chatbot-RAG/
 │
 ├── app.py # Streamlit web interface
@@ -59,7 +61,7 @@ Chatbot-RAG/
 ├── .env.example # API keys
 ├── Screenshots # Results of App
 └── README.md
-
+```
 ---
 
 # Installation
